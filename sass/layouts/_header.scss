@@ -1,0 +1,170 @@
+.header {
+    border-bottom: 1px solid #ececec;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  /* logo-website */
+  .webstudio {
+    margin-right: 93px;
+    font-family: Raleway;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.2;
+  }
+  
+  .Web {
+    color: #2196f3;
+  }
+  
+  /* links */
+  
+  .link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    display: flex;
+    position: relative;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+    color: #2196f3;
+    
+  }
+  }
+  
+  .stud::after {
+    display: block;
+    position: absolute;
+    width: 48px;
+    height: 4px;
+    top: 50px;
+  
+    background-color: rgba(33, 150, 243, 1);
+    content: '';
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+  }
+  
+  .portf::after {
+    display: block;
+    position: absolute;
+    width: 77px;
+    height: 4px;
+    bottom: 0;
+    top: 50px;
+  
+    background-color: rgba(33, 150, 243, 1);
+    content: '';
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+  }
+  .hover-port {
+    width: 77px;
+    height: 4px;
+    background-color: #2196f3;
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+  }
+  /* Nav / !NAV FLEX! */
+  
+  .inline-nav {
+    display: flex;
+  }
+  
+  .site-nav {
+    display: flex;
+    align-self: center;
+  }
+  
+  .nav-item {
+    margin-right: 50px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .link.studio.current {
+    color: var(--studio-portfolio-color);
+  }
+  .link.portfolio.current {
+    color: var(--studio-portfolio-color);
+  }
+  
+  /* contacts / contact flex */
+  .contact {
+    display: flex;
+    margin-left: auto;
+    align-self: center;
+  }
+  .mail-tel {
+    margin-left: auto;
+    display: flex;
+  }
+  
+  .contact-item {
+    margin-right: 50px;
+    display: flex;
+    text-align: center;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+  
+  
+  
+  .studio,
+  .portfolio,
+  .contacts {
+    color: #212121;
+  }
+  
+  .flex-con {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .mail {
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 500;
+  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: #2196f3;
+      
+    }
+  }
+  
+  .icon {
+    fill: currentColor;
+  }
+  .tel {
+    color: #757575;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: #2196f3;
+    }
+  }
+  
