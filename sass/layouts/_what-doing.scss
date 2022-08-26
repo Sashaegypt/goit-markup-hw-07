@@ -5,11 +5,11 @@
     color: #212121;
   }
   /* flex */
-  .flex-what-doing {
+  .pictures {
     display: flex;
   }
   /* what-doing */
-  .what-doing {
+  .activity__topic {
     margin-bottom: 50px;
     text-align: center;
     font-weight: 700;
@@ -18,7 +18,7 @@
     line-height: 1.2;
     letter-spacing: 0.03em;
   }
-  .img {
+  .pictures__item{
     margin-left: 30px;
     position: relative;
 
@@ -26,11 +26,11 @@
       margin-left: 0;
     }
   }
-  .what-doing-section {
+  .activity {
     padding-top: 0;
   }
   
-  .li-title {
+  .pictures__title {
     position: absolute;
     background: rgba(47, 48, 58, 0.8);
   

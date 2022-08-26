@@ -1,10 +1,10 @@
-.title-project {
+.projects__title {
     color: #212121;
     font-size: 18px;
     line-height: 2;
     margin-bottom: 4px;
   }
-  .platform {
+  .projects__platform {
     color: #757575;
     line-height: 1.9;
     margin: 0;
@@ -12,14 +12,14 @@
   
   /* Cards! */
   
-  .cards {
+  .projects {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: -30px;
     margin-left: -30px;
   }
   
-  .card-set {
+  .projects__item {
     margin-bottom: 30px;
     margin-left: 30px;
     border: 1px #eeeeee;
@@ -37,10 +37,10 @@
     }
   }
   
-  .cards > .card-set {
+  .projects > .projects__item {
     flex-basis: calc(100% / 3 - 30px);
   }
-  .card-item {
+  .projects__cont{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
@@ -52,19 +52,19 @@
   
  
   
-  .link-hover:hover ,
-  .link-hover:focus  {
+  .projects-link:hover ,
+  .projects-link:focus  {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
       0px 1px 1px 0px rgba(0, 0, 0, 0.12);
     opacity: 1;
   }
   
-  .link-hover:hover .title-text,
-  .link-hover:focus .title-text{
+  .projects-link:hover .projects__text,
+  .projects-link:focus .projects__text{
     transform: translateY(0);
   }
   
-  .hover-thumb {
+  .projects-thumb {
     position: relative;
     display: flex;
     justify-content: center;
@@ -73,7 +73,7 @@
     overflow: hidden;
   }
   
-  .title-text {
+  .projects__text {
     height: 100%;
     position: absolute;
     padding: 62px 24px;

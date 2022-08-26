@@ -5,7 +5,7 @@
   }
   
   /* logo-website */
-  .webstudio {
+  .nav__webstudio {
     margin-right: 93px;
     font-family: Raleway;
     font-weight: 700;
@@ -76,16 +76,16 @@
   }
   /* Nav / !NAV FLEX! */
   
-  .inline-nav {
+  .nav {
     display: flex;
   }
   
-  .site-nav {
+  .nav__list{
     display: flex;
     align-self: center;
   }
   
-  .nav-item {
+  .nav__link {
     margin-right: 50px;
 
     &:last-child {
@@ -110,7 +110,7 @@
     display: flex;
   }
   
-  .contact-item {
+  .contact__item {
     margin-right: 50px;
     display: flex;
     text-align: center;
@@ -153,7 +153,7 @@
     }
   }
   
-  .icon {
+  .contact__icon {
     fill: currentColor;
   }
   .tel {

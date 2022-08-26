@@ -1,11 +1,11 @@
-.buttons-all {
+.btns-links {
     margin-bottom: 50px;
   
     display: flex;
     justify-content: center;
   }
   
-  .buttons {
+  .btns-links__buttons{
     padding: 8px 22px;
     color: #212121;
     font-size: 16px;
@@ -28,7 +28,7 @@
         border-radius: 4px;
       }
   }
-  .item-buttons {
+  .btns-links__item{
     margin-right: 8px;
 
     &:last-child {

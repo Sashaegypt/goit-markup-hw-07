@@ -5,7 +5,7 @@
     line-height: 1.7;
 }
 
-.webstudio-footer {
+.footer__webstudio {
     display: block;
     margin-bottom: 20px;
   
@@ -25,7 +25,7 @@
   }
  
   
-  .footer-item {
+  .address__item {
     margin-bottom: 9px;
 
     &:last-child {
@@ -51,7 +51,7 @@
 
   
   /* Mail */
-  .mail-footer {
+  .mail__address {
     margin-bottom: 9px;
   
     color: #ffffff99;
@@ -67,7 +67,7 @@
   
   
   /* Tel */
-  .tel-footer {
+  .tel__address{
     margin-bottom: 9px;
   
     color: #ffffff99;
@@ -87,7 +87,7 @@
     margin-left: 70px;
   }
   
-  .soc-head {
+  .social-topic {
     margin-bottom: 20px;
   
     font-weight: 700;
@@ -98,13 +98,13 @@
     color: #ffffff;
   }
   
-  .soc-footer {
+  .our-socnetwork {
     display: flex;
     justify-content: center;
     gap: 10px;
   }
   
-  .soc-footer-link {
+  .our-socnetwork__item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +130,7 @@
    margin-left: 93px;
   }
   
-  .label-footer{  
+  .subscription__label{  
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
@@ -140,7 +140,7 @@
   }
   
 
-  .input-footer{
+  .subscription__input{
     padding: 16px;
     
     box-sizing: border-box;
@@ -180,7 +180,7 @@
   
   input:focus::-webkit-input-placeholder { color:transparent; }
   
-  .btn{
+  .subscription__btn{
     width: 200px;
     height: 50px;
     font-style: normal;
@@ -206,7 +206,7 @@
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
   }
-  .icon-tg{
+  .subscription__icon{
     fill: #fff;
   }
   .ib{
